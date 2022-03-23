@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+.container-about{
+    min-width: 1440px;
+    height: 1046px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 91px 124px 157px;
+}
+.container-about .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.container-about .text{
+    width: 55.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-about h1{
+    font-family: "Roboto Slab";
+    font-size: 55px;
+}
+.container-about .text p{
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.container-about .picture{
+    width: 366px;
+    height: 345px;
+    position: relative;
+}
+.container-about .first-image{
+    width: 100%;
+    height: 100%;
+}
+.container-about .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.container-about .left-picture{
+    width: 232px;
+    height: 219px;
+    position: relative;
+}
+.container-about .second-image{
+    width: 100%;
+    height: 100%;
+}
+.container-about .info{
+    display: flex;
+    justify-content: space-between;
+    width: 64%;
+}
+.container-about .info-text{
+    width: 23%;
+}
+.container-about h5{
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.container-about .info-text p{
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    margin: 7px 0 0;
+}
+
+@media screen and (max-width: 1439px) and (min-width: 834px) {
+    .container-about{
+        min-width: 834px;
+        height: 633px;
+        padding: 56px 71.63px 180.25px 72px;
+    }
+    .container-about h1{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .container-about .text{
+        width: 55%;
+    }
+    .container-about .text p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .container-about .picture{
+        width: 211.98px;
+        height: 199.23px;
+    }
+    .container-about .left-picture{
+        display: none;
+    }
+    .container-about .info-text{
+        width: 24%;
+    }
+    .container-about .info-text h5{
+        font-size: 15px;
+        line-height: 19.5px;
+    }
+    .container-about .info-text p{
+        font-size: 11px;
+        line-height: 14.3px;
+    }
+}
+
+@media screen and (max-width: 833px) and (min-width: 375px) {
+    .container-about{
+        min-width: 375px;
+        height: 776px;
+        padding: 56px 30.53px 124px 36px;
+    }
+    .container-about h1{
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .container-about .main{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+    }
+    .container-about .text{
+        width: 100%;
+    }
+    .container-about .text p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .container-about .picture{
+        margin-top: 10px;
+        width: 170.55px;
+        height: 160.29px;
+    }
+    .container-about .left-picture{
+        display: none;
+    }
+    .container-about .info{
+        width: 75%;
+        height: 115px;
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
+    .container-about .info-text{
+        width: 42%;
+    }
+    .container-about .info-text h5{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .container-about .info-text p{
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
+
+/* For extra-small devices */
+@media screen and (max-width: 374px){
+    .container-about{
+        min-width: 374px;
+        height: 695px;
+        padding: 60px 30.53px 124px 36px;
+    }
+    .container-about h1{
+        font-size: 22px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    .container-about .main{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+    }
+    .container-about .text{
+        width: 100%;
+    }
+    .container-about .text p{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .container-about .picture{
+        width: 150px;
+        height: 150.29px;
+        margin-top: 15px;
+    }
+    .container-about .left-picture{
+        display: none;
+    }
+    .container-about .info{
+        width: 75%;
+        height: 110px;
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
+    .container-about .info-text{
+        width: 34%;
+    }
+    .container-about .info-text h5{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .container-about .info-text p{
+        font-size: 8px;
+        line-height: 11px;
+    }
+}
